@@ -2,7 +2,9 @@
 
 #os: osx
   
-language: swift
+#language: swift
+
+language: objective-c
 
 install:
   - true
