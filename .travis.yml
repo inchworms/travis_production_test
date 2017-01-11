@@ -1,12 +1,10 @@
-{
-  "language": "swift",
-  "install": [
-    true
-  ],
-  "script": [
-    "uname -a"
-  ],
-  "group": "stable",
-  "dist": "precise",
-  "os": "linux"
-}
+language: swift
+
+install:
+  - true
+
+script:
+  - uname -a
+
+notifications:
+  email: false
