@@ -1,8 +1,8 @@
-#language: ruby
+language: ruby
 
-#os: osx
+os: osx
   
-language: swift
+#language: swift
 
 #language: objective-c
 
