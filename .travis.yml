@@ -1,6 +1,27 @@
+language: cpp
+
+os:
+  - osx
+  - linux
+
+env:
+  - BUILD_TYPE=Debug
+  - BUILD_TYPE=Release
+
+branches:
+  except:
+    - gh-pages
+
+env:
+  global:
+    - GH_REPO_NAME: API
+    - GH_REPO_REF: github.com/OSSIA/API.git
+    - secure: DwymbOUVdWgSK0SpNgIrn+6OvwWqc0kGk3S3c+p6gIfKOLHu2sEY7OIIFKdOXs8nwP2INXLQ/wBf3vqpQ5ahuJ6GKk0V4XKizZH7ZfekNtjLQ51QhlvxOx9u1SBXSbiUUVbvIxtRvEfaQpkf1fwapxD2jo0sBXXzNWlNST58clE=
+
 osx_image: xcode8.2
 dist: trusty
 sudo: required
+
 
 matrix:
   exclude:
@@ -31,9 +52,9 @@ matrix:
 
   - os: linux
     env: BUILD_TYPE=Docs
-
+    
 install:
   - true
-   
- script:
+
+script:
   - uname -a
