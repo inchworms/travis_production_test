@@ -1,10 +1,10 @@
-language: ruby
+#language: ruby
 
-os: 
-  - osx
-  - linux
+#os: 
+#  - osx
+#  - linux
   
-#language: swift
+language: swift
 
 #language: objective-c
 
