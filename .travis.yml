@@ -4,9 +4,9 @@
 #  - osx
 #  - linux
   
-language: swift
+language: python
 
-cache: bundler
+cache: pip
 
 #language: objective-c
 
