@@ -4,9 +4,8 @@
 #  - osx
 #  - linux
   
-language: python
-
-cache: pip
+language: objective-c
+cache: cocoapods
 
 #language: objective-c
 
