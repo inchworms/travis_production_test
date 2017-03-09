@@ -6,6 +6,8 @@
   
 language: swift
 
+cache: bundler
+
 #language: objective-c
 
 #language: orange
